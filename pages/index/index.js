@@ -1,7 +1,4 @@
 // index.js
-
-const { View } = require("XrFrame/kanata/lib/index")
-
 // 获取应用实例
 const app = getApp()
 
