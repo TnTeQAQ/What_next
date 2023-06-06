@@ -1,4 +1,7 @@
 // index.js
+
+const { View } = require("XrFrame/kanata/lib/index")
+
 // 获取应用实例
 const app = getApp()
 
@@ -10,6 +13,11 @@ Page({
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  navigateToOptions(){
+    wx.navigateTo({
+      url: '../options/options',
     })
   },
   onLoad() {

@@ -23,6 +23,12 @@
   display: inline-block;
   width: auto;
 }
+
+.choose_box{
+  margin-top: 10px;
+  text-align: center;
+}
+
 .choose_btn{
   background-color: rgb(214, 214, 214);
 }

@@ -1,0 +1,22 @@
+<!--pages/options/options.wxml-->
+<view class="Options_head"></view>
+<view class="Options_body">
+  <view class="Options_body_box1">
+    <view class="Options_body_title">Event:</view>
+    <view class="Options_body_options">
+      <!-- 这里要读取数据库 -->
+      <checkbox  class="options_box">123</checkbox>
+    </view>
+  </view>
+  <view class="Options_body_box2">
+    <view class="Options_body_title">Scenario:</view>
+    <view class="Options_body_options">
+      <!-- 这里要读取数据库 -->
+      <checkbox  class="options_box">123</checkbox>
+      <checkbox  class="options_box">456</checkbox>
+      <checkbox  class="options_box">7890</checkbox>
+      <checkbox  class="options_box">7890</checkbox>
+      <checkbox  class="options_box">7890</checkbox>
+    </view>
+  </view>
+</view>

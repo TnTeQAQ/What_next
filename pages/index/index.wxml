@@ -3,11 +3,12 @@
 <view class="body">
   <view class="body_block1">
     <view class="body_font1">What_</view>
-    <view class="body_font2">next</view>
+    <view class="body_font2" bindtap="navigateToOptions">next</view>
     <view class="body_font3">?</view>
+    <view class="choose_box" hidden="true">test</view>
   </view>
   <view class="body_block2">
-    <button class="choose_btn">kick me</button>
+    <button class="choose_btn" bindtap="chooseOptions">kick me</button>
   </view>
 </view>
 <view class="footer"></view>
