@@ -10,6 +10,10 @@
       <!-- 这里要读取数据库 -->
       <checkbox  class="options_box">123</checkbox>
       <checkbox  class="options_box">123</checkbox>
+      <checkbox  class="options_box">456</checkbox>
+      <checkbox  class="options_box">123</checkbox>
+      <checkbox  class="options_box">123</checkbox>
+      <checkbox  class="options_box">123</checkbox>
       <checkbox  class="options_box">123</checkbox>
       <checkbox  class="options_box">123</checkbox>
       <checkbox  class="options_box">123</checkbox>
@@ -32,7 +36,7 @@
   </view>
 </view>
 <view class="footer">
-  <view class="add_btn">
-    <text class="add_text" bindtap="navigateToAddEvent">Add Event</text>
+  <view class="Submit_btn" bindtap="navigateToindex">
+    <text class="Submit_text">Submit</text>
   </view>
 </view>

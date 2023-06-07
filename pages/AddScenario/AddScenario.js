@@ -1,10 +1,9 @@
-// pages/Add/Add.js
+// pages/AddScenario/AddScenario.js
 Page({
-  // 页面的初始数据
+  //  页面的初始数据
   data: {
 
   },
-  // 跳转函数
   navigateBack(){
     wx.navigateBack()
   },

@@ -23,7 +23,7 @@ page{
   color: #666;
 }
 .Options_btn{
-  display: inline-block;
+  /* display: inline-block; */
   margin: 10px;
   float: right;
   width: 30px;
@@ -56,16 +56,17 @@ page{
 .footer{
   width: 100%;
   position: fixed;
-  bottom: 10px;
+  bottom: 50px;
   text-align: center;
 }
-.add_btn{
+.Submit_btn{
   display: inline-block;
-  width: 150px;
-  height: 30px;
+  background-color: #F5F5F5;
+  width: 180px;
+  height: 45px;
   border: 3px solid #666666;
   border-radius: 10px;
 }
-.add_text{
-  line-height: 30px;
+.Submit_text{
+  line-height: 45px;
 }

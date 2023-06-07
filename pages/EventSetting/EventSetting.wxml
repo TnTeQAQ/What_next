@@ -1,2 +1,29 @@
 <!--pages/EventSetting/EventSetting.wxml-->
-<text>pages/EventSetting/EventSetting.wxml</text>
+<view class="EventSetting_head">
+  <view class="EventSetting_title">
+    <text class="EventSetting_text">Event setting:</text>
+  </view>
+</view>
+
+<view class="EventSetting_body">
+  <view class="EventSetting_body_box">
+    <text class="EventName">123</text>
+    <view class="box_icon">
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToEventChange"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelEvent"></image>
+    </view>
+  </view>
+  <view class="EventSetting_body_box">
+    <text class="EventName">hello</text>
+    <view class="box_icon">
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToEventChange"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelEvent"></image>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <view class="add_btn" bindtap="navigateToAddEvent">
+    <text class="add_text">Add Event</text>
+  </view>
+</view>

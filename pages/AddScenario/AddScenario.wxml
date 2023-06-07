@@ -1,18 +1,18 @@
 <!--pages/Add/Add.wxml-->
 <view class="Add_head">
   <view class="Add_title">
-    <text class="Add_text">Add Event:</text>
+    <text class="Add_text">Add Scenario:</text>
   </view>
 </view>
 
 <view class="Add_body">
   <view class="Add_body_box1">
-    <text class="BoxTitle">EventName:</text>
-    <input name="EventName" class="InputEventName"></input>
+    <text class="BoxTitle">ScenarioName:</text>
+    <input name="ScenarioName" class="InputScenarioName"></input>
   </view>
   <view class="Add_body_box2">
-    <text class="BoxTitle">ScenarioName:</text>
-    <textarea name="ScenarioName" class="InputScenarioName"></textarea>
+    <text class="BoxTitle">EventName:</text>
+    <textarea name="EventName" class="InputEventName"></textarea>
   </view>
 </view>
 

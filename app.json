@@ -5,7 +5,8 @@
     "pages/options/options",
     "pages/Add/Add",
     "pages/EventSetting/EventSetting",
-    "pages/ScenarioSetting/ScenarioSetting"
+    "pages/ScenarioSetting/ScenarioSetting",
+    "pages/AddScenario/AddScenario"
   ],
   "window": {
     "backgroundTextStyle": "light",

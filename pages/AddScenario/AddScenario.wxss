@@ -1,4 +1,4 @@
-/* pages/Add/Add.wxss */
+/* pages/AddScenario/AddScenario.wxss */
 page{
   background-color: #F5F5F5;
 }
@@ -22,11 +22,11 @@ page{
 .BoxTitle{
   font-size: 20px;
 }
-.InputEventName{
+.InputScenarioName{
   border: 3px solid #666666;
   border-radius: 10px;
 }
-.InputScenarioName{
+.InputEventName{
   width: 98%;
   border: 3px solid #666666;
   border-radius: 10px;

@@ -1,2 +1,29 @@
 <!--pages/ScenarioSetting/ScenarioSetting.wxml-->
-<text>pages/ScenarioSetting/ScenarioSetting.wxml</text>
+<view class="ScenarioSetting_head">
+  <view class="ScenarioSetting_title">
+    <text class="ScenarioSetting_text">Scenario setting:</text>
+  </view>
+</view>
+
+<view class="ScenarioSetting_body">
+  <view class="ScenarioSetting_body_box">
+    <text class="ScenarioName">123</text>
+    <view class="box_icon">
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToScenarioChange"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelScenario"></image>
+    </view>
+  </view>
+  <view class="ScenarioSetting_body_box">
+    <text class="ScenarioName">hello</text>
+    <view class="box_icon">
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToScenarioChange"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelScenario"></image>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <view class="add_btn" bindtap="navigateToAddScenario">
+    <text class="add_text">Add Scenario</text>
+  </view>
+</view>
