@@ -1,4 +1,4 @@
-// pages/options/options.js
+// pages/ScenarioSetting/ScenarioSetting.js
 Page({
 
   /**
@@ -14,23 +14,7 @@ Page({
   onLoad(options) {
 
   },
-  
-  // 跳转函数
-  navigateToAddEvent(){
-    wx.navigateTo({
-      url: '../Add/Add',
-    })
-  },
-  navigateToEventSetting(){
-    wx.navigateTo({
-      url: '../EventSetting/EventSetting',
-    })
-  },
-  navigateToScenarioSetting(){
-    wx.navigateTo({
-      url: '../ScenarioSetting/ScenarioSetting',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

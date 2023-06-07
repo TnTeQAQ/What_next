@@ -2,11 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/options/options"
+    "pages/options/options",
+    "pages/Add/Add",
+    "pages/EventSetting/EventSetting",
+    "pages/ScenarioSetting/ScenarioSetting"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#F5F5F5",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
