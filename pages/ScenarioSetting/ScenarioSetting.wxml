@@ -6,20 +6,16 @@
 </view>
 
 <view class="ScenarioSetting_body">
-  <view class="ScenarioSetting_body_box">
-    <text class="ScenarioName">123</text>
+  <view class="ScenarioSetting_body_box" wx:for="{{Scenarios}}" wx:key="Sid">
+    <text class="ScenarioName">{{item.Sname}}</text>
     <view class="box_icon">
-      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToScenarioChange"></image>
-      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelScenario"></image>
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToScenarioChange" id="{{item.Sid}}"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelScenario" id="{{item.Sid}}"></image>
     </view>
   </view>
-  <view class="ScenarioSetting_body_box">
-    <text class="ScenarioName">hello</text>
-    <view class="box_icon">
-      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToScenarioChange"></image>
-      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelScenario"></image>
-    </view>
-  </view>
+  <view class="ScenarioSetting_body_box" style="opacity:0"></view>
+  <view class="ScenarioSetting_body_box" style="opacity:0"></view>
+
 </view>
 
 <view class="footer">

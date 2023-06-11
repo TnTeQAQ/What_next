@@ -7,6 +7,7 @@ page{
 }
 .Options_body_box2{
   width: 100%;
+  margin-top: 20px;
 }
 .Options_body_title{
   width: 98%;

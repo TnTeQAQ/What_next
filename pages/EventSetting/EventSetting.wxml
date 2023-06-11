@@ -6,20 +6,15 @@
 </view>
 
 <view class="EventSetting_body">
-  <view class="EventSetting_body_box">
-    <text class="EventName">123</text>
+  <view class="EventSetting_body_box" wx:for="{{Events}}" wx:key="Eid" >
+    <text class="EventName">{{item.Ename}}</text>
     <view class="box_icon">
-      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToEventChange"></image>
-      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelEvent"></image>
+      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToEventChange" id="{{item.Eid}}"></image>
+      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelEvent" id="{{item.Eid}}"></image>
     </view>
   </view>
-  <view class="EventSetting_body_box">
-    <text class="EventName">hello</text>
-    <view class="box_icon">
-      <image class="update" src="../../assets/images/icon/update.svg" bindtap="navigateToEventChange"></image>
-      <image class="delete" src="../../assets/images/icon/del.svg" bindtap="DelEvent"></image>
-    </view>
-  </view>
+  <view class="EventSetting_body_box" style="opacity:0"></view>
+  <view class="EventSetting_body_box" style="opacity:0"></view>
 </view>
 
 <view class="footer">
