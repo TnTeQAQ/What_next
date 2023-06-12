@@ -5,19 +5,21 @@
   </view>
 </view>
 
-<view class="Add_body">
-  <view class="Add_body_box1">
-    <text class="BoxTitle">EventName:</text>
-    <input name="EventName" class="InputEventName"></input>
+<form bindsubmit="SubmitEvent">
+  <view class="Add_body">
+    <view class="Add_body_box1">
+      <text class="BoxTitle">EventName:</text>
+      <input name="EventName" class="InputEventName" value="{{EventName}}"></input>
+    </view>
+    <view class="Add_body_box2">
+      <text class="BoxTitle">ScenarioName:</text>
+      <textarea name="ScenarioName" class="InputScenarioName" value="{{ScenarioName}}"></textarea>
+    </view>
   </view>
-  <view class="Add_body_box2">
-    <text class="BoxTitle">ScenarioName:</text>
-    <textarea name="ScenarioName" class="InputScenarioName"></textarea>
-  </view>
-</view>
 
-<view class="footer">
-  <view class="Submit_btn" bindtap="navigateBack">
-    <text class="Submit_text">Submit</text>
+  <view class="footer">
+    <button class="Submit_btn" formType="submit">
+      <text class="Submit_text">Submit</text>
+    </button>
   </view>
-</view>
+</form>

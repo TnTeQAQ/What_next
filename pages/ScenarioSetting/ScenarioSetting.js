@@ -24,7 +24,6 @@ Page({
         })
       },
       fail: function () {
-        console.log("Scenarios");
       }
     })
   },
@@ -37,12 +36,12 @@ Page({
   // 跳转函数
   navigateToAddScenario(){
     wx.navigateTo({
-      url: '../AddScenario/AddScenario',
+      url: '../AddScenario/AddScenario?Sid=-1',
     })
   },
-  navigateToScenarioChange(){
+  navigateToScenarioChange(Sid){
     wx.navigateTo({
-      url: '../AddScenario/AddScenario',
+      url: '../AddScenario/AddScenario?Sid='+Sid.currentTarget.id,
     })
   },
   //删除事件

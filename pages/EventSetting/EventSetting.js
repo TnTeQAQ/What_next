@@ -38,12 +38,12 @@ Page({
   // 跳转函数
   navigateToAddEvent(){
     wx.navigateTo({
-      url: '../Add/Add',
+      url: '../Add/Add?Eid=-1',
     })
   },
-  navigateToEventChange(){
+  navigateToEventChange(Eid){
     wx.navigateTo({
-      url: '../Add/Add',
+      url: '../Add/Add?Eid='+Eid.currentTarget.id,
     })
   },
   //删除事件
@@ -63,8 +63,8 @@ Page({
               Eid: Eid.currentTarget.id
             },
             success: function () {
-              that.onLoad()//这个是重新调取
-              console.log("删除成功")
+              console.log("删除成功");
+              that.onLoad();//这个是重新调取
             },
             fail: function () {
               console.log("删除失败");

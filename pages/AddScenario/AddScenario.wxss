@@ -47,5 +47,5 @@ page{
   border-radius: 10px;
 }
 .Submit_text{
-  line-height: 45px;
+  text-align: center;
 }
